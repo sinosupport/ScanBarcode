@@ -17,6 +17,7 @@ export default defineConfig({
     return {
       host: true,
       port: 1423,
+      allowedHosts: ['cloud.sino.co.th'],
       https: httpsOpt,
     };
   })(),
@@ -33,6 +34,7 @@ export default defineConfig({
       host: true,
       port: 1423,
       strictPort: true,
+      allowedHosts: ['cloud.sino.co.th'],
       https: httpsOpt,
     };
   })(),
